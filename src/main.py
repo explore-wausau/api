@@ -53,11 +53,11 @@ def eventcreate():
 
 @app.route("/events/modify")
 def eventmodify():
-    return create_error_msg("not.implemented", "Not Implemented"), 501
+    return create_error_msg("Not Implemented"), 501
 
 @app.route("/events/delete")
 def eventdelete():
-    return create_error_msg("not.implemented", "Not Implemented"), 501
+    return create_error_msg("Not Implemented"), 501
 
 if __name__ == "__main__":
     app.run(debug=True, port=os.environ.get("PORT"))
